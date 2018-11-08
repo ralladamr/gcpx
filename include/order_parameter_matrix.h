@@ -2,15 +2,15 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-#ifndef MALLARD_ORDERPARAMETERMATRIX_H
-#define MALLARD_ORDERPARAMETERMATRIX_H
+#ifndef GCPX_ORDER_PARAMETER_MATRIX_H
+#define GCPX_ORDER_PARAMETER_MATRIX_H
 
 #include "order_parameter_distribution.h"
 #include "transition.h"
 
 #include <vector>
 
-namespace mallard {
+namespace gcpx {
     class Order_parameter_matrix {
     public:
         Order_parameter_matrix(const std::vector<Transition>& transitions, const std::vector<int>& subensembles);

@@ -8,7 +8,7 @@
 #include <iostream>
 #include <sstream>
 
-namespace mallard {
+namespace gcpx {
     Growth_distribution::Growth_distribution(const std::string& filename)
     {
         std::ifstream in {filename};

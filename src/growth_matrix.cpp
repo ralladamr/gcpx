@@ -4,7 +4,7 @@
 
 #include "growth_matrix.h"
 
-namespace mallard {
+namespace gcpx {
     Growth_matrix::Growth_matrix(const std::vector<Transition>& transitions, const std::vector<int>& subensembles)
         : transitions(transitions), subensembles(subensembles)
     {}

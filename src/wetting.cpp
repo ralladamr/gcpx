@@ -7,7 +7,7 @@
 #include <cmath>
 #include <vector>
 
-namespace mallard {
+namespace gcpx {
     std::vector<Radian> contact_angle(const std::vector<double>& spreading_coeffs,
                                       const std::vector<double>& drying_coeffs)
     {

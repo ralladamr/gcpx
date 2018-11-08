@@ -6,7 +6,7 @@
 
 #include <iostream>
 
-namespace mallard {
+namespace gcpx {
     double solve_secant(std::function<double(double)> objective, double initial_value)
     {
         const auto max_iterations = 100000;

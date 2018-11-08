@@ -7,7 +7,7 @@
 #include <cmath>
 #include <vector>
 
-namespace mallard {
+namespace gcpx {
     Transition::Transition(long fwd_attempts, double fwd_probability, long rev_attempts, double rev_probability)
         : fwd_attempts(fwd_attempts), fwd_probability(fwd_probability), rev_attempts(rev_attempts),
         rev_probability(rev_probability)

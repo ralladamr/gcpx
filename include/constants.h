@@ -2,10 +2,10 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-#ifndef MALLARD_CONSTANTS_H
-#define MALLARD_CONSTANTS_H
+#ifndef GCPX_CONSTANTS_H
+#define GCPX_CONSTANTS_H
 
-namespace mallard {
+namespace gcpx {
     // The absolute value of the charge of an electron in coulombs (2014 CODATA).
     const double electron_charge = 1.6021766208e-19;
 

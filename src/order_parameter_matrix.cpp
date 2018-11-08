@@ -6,7 +6,7 @@
 
 #include <numeric>
 
-namespace mallard {
+namespace gcpx {
     Order_parameter_matrix::Order_parameter_matrix(const std::vector<Transition>& transitions,
                                                    const std::vector<int>& subensembles)
         : transitions(transitions), subensembles(subensembles)

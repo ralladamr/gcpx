@@ -8,7 +8,7 @@
 #include <iostream>
 #include <sstream>
 
-namespace mallard {
+namespace gcpx {
     Order_parameter_distribution::Order_parameter_distribution(const std::string& filename)
     {
         std::ifstream in {filename};

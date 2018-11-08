@@ -8,8 +8,8 @@
 #include <iostream>
 #include <numeric>
 
-namespace mallard {
-    double Histogram::reweight(int index, double amount) const
+namespace gcpx {
+    double Histogram::reweight(size_t index, double amount) const
     {
         auto shifted = shift(index, amount);
         auto shifted_sum = std::accumulate(shifted.begin(), shifted.end(), 0.0);
@@ -36,7 +36,7 @@ namespace mallard {
         : bins(bins), counts(counts)
     {}
 
-    std::vector<double> Histogram::shift(int index, double amount) const
+    std::vector<double> Histogram::shift(size_t index, double amount) const
     {
         auto bin_subset = bins[index];
         auto count_subset = counts[index];

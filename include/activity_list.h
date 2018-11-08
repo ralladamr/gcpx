@@ -2,12 +2,12 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-#ifndef MALLARD_ACTIVITY_LIST_H
-#define MALLARD_ACTIVITY_LIST_H
+#ifndef GCPX_ACTIVITY_LIST_H
+#define GCPX_ACTIVITY_LIST_H
 
 #include <vector>
 
-namespace mallard {
+namespace gcpx {
     class Activity_list {
     public:
         std::vector<std::vector<double>> log_activities() const;

@@ -2,12 +2,12 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-#ifndef MALLARD_TRANSITION_H
-#define MALLARD_TRANSITION_H
+#ifndef GCPX_TRANSITION_H
+#define GCPX_TRANSITION_H
 
 #include <vector>
 
-namespace mallard {
+namespace gcpx {
     class Transition {
     public:
         bool is_sampled() const;
@@ -26,6 +26,6 @@ namespace mallard {
         double rev_probability;
         static const long min_attempts = 1;
     };
-} // namespace mallard
+}
 
 #endif

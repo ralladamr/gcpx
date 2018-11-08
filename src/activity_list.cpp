@@ -10,7 +10,7 @@
 #include <numeric>
 #include <sstream>
 
-namespace mallard {
+namespace gcpx {
     Activity_list::Activity_list(const std::string& filename, bool is_bz_file)
     {
         std::ifstream in {filename};

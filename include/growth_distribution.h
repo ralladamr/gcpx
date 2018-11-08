@@ -2,12 +2,12 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-#ifndef MALLARD_GROWTHDISTRIBUTION_H
-#define MALLARD_GROWTHDISTRIBUTION_H
+#ifndef GCPX_GROWTHDISTRIBUTION_H
+#define GCPX_GROWTHDISTRIBUTION_H
 
 #include <vector>
 
-namespace mallard {
+namespace gcpx {
     class Growth_distribution {
     public:
         Growth_distribution(const std::string & filename);

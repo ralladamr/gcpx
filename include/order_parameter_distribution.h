@@ -2,13 +2,13 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-#ifndef MALLARD_ORDERPARAMETERDISTRIBUTION_H
-#define MALLARD_ORDERPARAMETERDISTRIBUTION_H
+#ifndef GCPX_ORDER_PARAMETER_DISTRIBUTION_H
+#define GCPX_ORDER_PARAMETER_DISTRIBUTION_H
 
 #include <string>
 #include <vector>
 
-namespace mallard {
+namespace gcpx {
     class Order_parameter_distribution {
     public:
         Order_parameter_distribution(const std::string& filename);
