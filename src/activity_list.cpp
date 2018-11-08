@@ -37,7 +37,7 @@ namespace mallard {
         : activities(activities)
     {}
 
-    std::vector<std::vector<double>>& Activity_list::log_activities() const
+    std::vector<std::vector<double>> Activity_list::log_activities() const
     {
         auto results {activities};
         for (auto& sl : results) {
