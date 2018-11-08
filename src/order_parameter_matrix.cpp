@@ -17,7 +17,7 @@ namespace mallard {
         const auto size = transitions.size();
         std::vector<double> log_probabilities(size);
         std::vector<double> diff(size - 1);
-        std::adjacent_difference(guess.begin(), guess.end(), diff);
+        std::adjacent_difference(guess.begin(), guess.end(), diff.begin());
         for (size_t i = 0; i < size - 1; i++) {
             log_probabilities[i + 1] = log_probabilities[i] + diff[i];
             if (transitions[i].is_sampled()) {
