@@ -1,0 +1,5 @@
+cmake_minimum_required (VERSION 2.6)
+project (gcpx)
+include_directories("include")
+file(GLOB SOURCES "src/*.cpp")
+add_library(gcpx ${SOURCES})
