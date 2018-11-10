@@ -5,13 +5,14 @@
 #ifndef GCPX_ACTIVITY_LIST_H
 #define GCPX_ACTIVITY_LIST_H
 
+#include <string>
 #include <vector>
 
 namespace gcpx {
     class Activity_list {
     public:
         std::vector<std::vector<double>> log_activities() const;
-        Activity_list(const std::string & filename, bool is_bz_file = false);
+        Activity_list(const std::string& filename, bool is_bz_file = false);
         Activity_list(const std::vector<std::vector<double>>& activities);
         ~Activity_list() = default;
         Activity_list(const Activity_list&) = default;

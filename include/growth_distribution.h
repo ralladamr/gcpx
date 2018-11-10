@@ -5,12 +5,13 @@
 #ifndef GCPX_GROWTHDISTRIBUTION_H
 #define GCPX_GROWTHDISTRIBUTION_H
 
+#include <string>
 #include <vector>
 
 namespace gcpx {
     class Growth_distribution {
     public:
-        Growth_distribution(const std::string & filename);
+        Growth_distribution(const std::string& filename);
         Growth_distribution(const std::vector<int>& subensembles, const std::vector<int>& components,
                             const std::vector<int>& stages, const std::vector<double>& log_probabilities);
         ~Growth_distribution() = default;
